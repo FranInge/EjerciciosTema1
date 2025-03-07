@@ -13,6 +13,6 @@ public class Main {
         System.out.println("La cantidad de segundos que hay en " + anios + " anios, " + meses + " meses y " + dias + " dias son: " + totalSegundos + " segundos.");
 
         //Ejercicio 2
-
+        System.out.println("El valor maximo de un char es: " + Character.MAX_VALUE + "\nEl valor maximo de un short es: " + Short.MAX_VALUE + "\nEl valor maximo de un int es: " + Integer.MAX_VALUE);
     }
 }
