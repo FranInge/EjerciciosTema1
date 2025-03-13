@@ -23,9 +23,28 @@ public class Ejercicio1 {
             long segsTotales = (anios * segsAnio) + (meses * segsMes) + (dias * segsDia);
             return segsTotales;
         }*/
-
-
     }
+    public static void main(String[] args) {
+
+
+        System.out.println("Ingrese el valor de anios para contar los segundos totales: ");
+        Scanner sc= new Scanner(System.in);
+        int anios = sc.nextInt();
+
+        System.out.println("Ingrese el valor de meses para contar los segundos totales: ");
+        Scanner sc2= new Scanner(System.in);
+        int meses = sc2.nextInt();
+
+        System.out.println("Ingrese el valor de dias para contar los segundos totales: ");
+        Scanner sc3= new Scanner(System.in);
+        int dias = sc3.nextInt();
+
+
+        long totalSegundos = Ejercicio1.Tiempo.CaculoTiempo(anios, meses, dias);
+
+        System.out.println("La cantidad de segundos que hay en " + anios + " anios, " + meses + " meses y " + dias + " dias son: " + totalSegundos + " segundos.\n");
+    }
+
 }
 /*
     public static void main(String[] args) {

@@ -2,7 +2,46 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicio3 {
-    int []arrIntTeclado = new int[10];
+
+    public static int[] obtenerMultiplosDe5(int begin, int end) {
+        int size = (end - begin) / 5 + 1;
+        int[] multiplos = new int[size];
+        int index = 0;
+        for (int i = begin; i <= end; i++) {
+            if (i % 5 == 0) {
+                multiplos[index++] = i;
+                }
+            }
+            return multiplos;
+        }
+
+        public static int sumarValoresArray(int[] array) {
+            int suma = 0;
+            for (int valor : array) {
+                suma += valor;
+            }
+            return suma;
+        }
+
+
+    public static void main(String[] args) {
+        Ejercicio3 ejercicio3 = new Ejercicio3();
+
+        int a = 1;
+        int b = 100;
+
+        int[] multiplosDe5 = ejercicio3.obtenerMultiplosDe5(a, b);
+        int suma = ejercicio3.sumarValoresArray(multiplosDe5);
+
+        System.out.println("Múltiplos de 5 entre " + a + " y " + b + ": " + Arrays.toString(multiplosDe5));
+        System.out.println("La cantidad de múltiplos de 5 es: " + multiplosDe5.length);
+        System.out.println("La suma de todos los múltiplos de 5 da como resultado: " + suma + "\n");
+    }
+}
+
+
+//Otra cosa
+    /*int []arrIntTeclado = new int[10];
     Scanner sc = new Scanner(System.in);
     public void leerTeclado(){
         for (int i = 0; i < arrIntTeclado.length; i++) {
@@ -24,4 +63,6 @@ public class Ejercicio3 {
         System.out.println("arrIntTeclado2: " + Arrays.toString(arrIntTeclado2));
     }
 
-}
+
+*/
+
