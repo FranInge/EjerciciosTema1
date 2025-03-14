@@ -40,7 +40,7 @@ public class Ejercicio3 {
 }
 
 
-//Otra cosa
+//Otra forma de hacerlo
     /*int []arrIntTeclado = new int[10];
     Scanner sc = new Scanner(System.in);
     public void leerTeclado(){
