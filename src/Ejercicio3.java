@@ -33,9 +33,9 @@ public class Ejercicio3 {
         int[] multiplosDe5 = ejercicio3.obtenerMultiplosDe5(a, b);
         int suma = ejercicio3.sumarValoresArray(multiplosDe5);
 
-        System.out.println("Múltiplos de 5 entre " + a + " y " + b + ": " + Arrays.toString(multiplosDe5));
-        System.out.println("La cantidad de múltiplos de 5 es: " + multiplosDe5.length);
-        System.out.println("La suma de todos los múltiplos de 5 da como resultado: " + suma + "\n");
+        System.out.println("Los multiplos de 5 entre " + a + " y " + b + " son: " + Arrays.toString(multiplosDe5));
+        System.out.println("La cantidad de múltiplos de 5 son: " + multiplosDe5.length);
+        System.out.println("La suma de todos los múltiplos de 5 es igual a: " + suma + "\n");
     }
 }
 
