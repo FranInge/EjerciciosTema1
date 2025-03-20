@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class Main {
 
@@ -98,7 +97,6 @@ public class Main {
                 break;
             }
         }while(contador!=0);
-
 
     }
 }
